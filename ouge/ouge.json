@@ -6,7 +6,7 @@
   "sites": [
     {
       "key": "豆瓣2",
-      "name": "📢自制自用！",
+      "name": "📢自制欧歌！",
       "type": 3,
       "api": "csp_Douban",
       "searchable": 0
