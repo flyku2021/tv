@@ -35,6 +35,15 @@
       "api": "csp_LocalFile"
     },
     {
+      "key": "push_agent",
+      "name": "📢手机｜推送",
+      "type": 3,
+      "api": "csp_Push",
+      "searchable": 0,
+      "filterable": 0,
+      "changeable": 0
+    },
+    {
       "key": "应用商店",
       "name": "🛒本地包更新",
       "type": 3,
