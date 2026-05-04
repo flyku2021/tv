@@ -35,43 +35,6 @@
       "api": "csp_LocalFile"
     },
     {
-      "key": "呦呦DJ",
-      "name": "🌸呦呦｜DJ",
-      "type": 3,
-      "api": "csp_Djuu",
-      "style": {
-        "type": "list"
-      }
-    },
-    {
-      "key": "戏曲多多",
-      "name": "🌸戏曲｜多多",
-      "type": 3,
-      "api": "csp_AppLY",
-      "style": {
-        "type": "list"
-      }
-    },
-    {
-      "key": "剧和短剧",
-      "name": "🌸聚合｜短剧",
-      "type": 3,
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1,
-      "api": "./lib/preview?name=jhdj.js"
-    },
-    {
-      "key": "919体育",
-      "name": "⚽919｜体育",
-      "type": 3,
-      "api": "csp_919Tiyu",
-      "style": {
-        "type": "list"
-      }
-    },
-    {
       "key": "世界听书",
       "name": "🌸世界｜听书",
       "type": 3,
