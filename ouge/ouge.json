@@ -1466,6 +1466,15 @@
   ],
   "lives": [
     {
+      "name": "tv本地",
+      "type": 0,
+      "url": "./lib/tv.txt",
+      "epg": "http://cdn.1678520.xyz/epg/?ch={name}&date={date}",
+      "logo": "https://gitee.com/mytv-android/myTVlogo/raw/main/img/{name}.png",
+      "playerType": 2,
+      "timeout": 10
+    },
+    {
       "name": "tv5.8",
       "type": 0,
       "url": "https://tv.nxog.top/m/tv/?ou=1fc",
