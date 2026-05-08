@@ -1466,7 +1466,7 @@
   ],
   "lives": [
     {
-      "name": "tv可用",
+      "name": "tv",
       "type": 0,
       "url": "https://tv.nxog.top/m/tv/?ou=1fc",
       "epg": "http://cdn.1678520.xyz/epg/?ch={name}&date={date}",
