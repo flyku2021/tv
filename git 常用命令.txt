@@ -10,7 +10,7 @@ git init
 
 git add .
 
-git commit -m "2026-5-16 更新"
+git commit -m "2026-5-20"
 git commit -m "pull"
 
 git remote add origin https://codeberg.org/simonren/Television.git
