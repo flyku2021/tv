@@ -1,7 +1,7 @@
 {
   "wallpaper": "https://tv.nxog.top/m/t/",
   "logo": "https://ncstatic-file.clewm.net/rsrc/2025/0930/20/945a6372224243d3f3d63cb309c0b7b1.png",
-  "spider": "./3c2fe19f3ae9dcf760356cb9e958ef48.jpg;md5;7c546ee0441d827c11541a81c5b98a7b",
+  "spider": "https://ncstatic-file.clewm.net/rsrc/2026/0526/13/3c2fe19f3ae9dcf760356cb9e958ef48.jpg;md5;7c546ee0441d827c11541a81c5b98a7b",
   "warningText": "tv提示:\n📢接口软件永远免费 \n📢长期维护切勿贩卖",
   "sites": [
     {
@@ -13,7 +13,7 @@
     },
     {
       "key": "豆瓣1",
-      "name": "📢公告❤更新0606❤",
+      "name": "📢公告❤更新0630❤",
       "type": 3,
       "api": "csp_Notice",
       "searchable": 1,
@@ -129,13 +129,13 @@
     },
     {
       "key": "茉莉",
-      "name": "💎茉莉｜推荐",
+      "name": "💎茉莉丨APP",
       "type": 3,
       "api": "csp_AppGet",
       "searchable": 1,
       "changeable": 1,
       "ext": {
-        "site": "./lib/9.txt",
+        "site": "https://gitee.com/wmmoliill/wimg/raw/master/img/bk/9.txt",
         "dataKey": "88689667dce61725",
         "dataIv": "88689667dce61725"
       }
@@ -157,7 +157,7 @@
       "key": "瓜子影视",
       "name": "💎瓜子｜推荐",
       "type": 3,
-      "api": "./lib/瓜子.py",
+      "api": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/py/瓜子.py",
       "changeable": 1
     },
     {
@@ -170,7 +170,7 @@
       "key": "星辰影院",
       "name": "💎星辰┃影视",
       "type": 3,
-      "api": "./lib/星辰影院.js"
+      "api": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/js/星辰影院.js"
     },
     {
       "key": "农民",
@@ -191,7 +191,7 @@
       "type": 3,
       "api": "csp_AppSy",
       "ext": {
-        "site": "./lib/api.txt",
+        "site": "https://dm-1255775577.cos.ap-guangzhou.myqcloud.com/dmg/api.txt",
         "siteKey": "rectangleadsadxa",
         "listKey": "aassddwwxxllsx1x",
         "parsesKey": "aassddwwxxllsx1x"
@@ -227,7 +227,7 @@
         ],
         "url_key": "wogg1",
         "threadinfo": {
-          "chunksize": 487,
+          "chunksize": 410,
           "threads": 16
         }
       }
@@ -250,7 +250,7 @@
         ],
         "url_key": "woog2",
         "threadinfo": {
-          "chunksize": 416,
+          "chunksize": 469,
           "threads": 16
         }
       }
@@ -451,7 +451,7 @@
       "key": "金牌123",
       "name": "⛏️金牌集数问题",
       "type": 3,
-      "api": "./lib/金牌影院.js"
+      "api": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/js/金牌影院.js"
     },
     {
       "key": "荐片",
@@ -515,24 +515,8 @@
       "ext": "7lj763gg402i7942463j9j9jh8579590k3hjii5gi4i73l2k5l"
     },
     {
-      "key": "金牌",
-      "name": "👑金牌｜影视",
-      "type": 3,
-      "api": "csp_AppQi",
-      "searchable": 1,
-      "changeable": 1,
-      "ext": {
-        "url": "https://qj4.catbb.xyz",
-        "dataKey": "eecbio48dsq13kkk",
-        "dataIv": "eecbio48dsq13kkk",
-        "search": "searchList4",
-        "init": "initV122",
-        "ua": "okhttp/3.10.0"
-      }
-    },
-    {
       "key": "王子",
-      "name": "👑王子｜影视",
+      "name": "👑王子丨APP",
       "type": 3,
       "api": "csp_AppGet",
       "searchable": 1,
@@ -545,7 +529,7 @@
     },
     {
       "key": "听心99",
-      "name": "👑听心｜影视",
+      "name": "👑听心丨APP",
       "type": 3,
       "api": "csp_App99",
       "ext": {
@@ -560,40 +544,8 @@
       }
     },
     {
-      "key": "橙子99",
-      "name": "👑橙子｜影视",
-      "type": 3,
-      "api": "csp_App99",
-      "ext": {
-        "host": "http://113.31.180.218:19987/app/bn",
-        "LoginPath": "/app/log",
-        "appkey": "6e8f3764a0644f3686ab5cdd57bcdf48",
-        "versionName": "4.3.1",
-        "name": "小橙子",
-        "package": "com.xchengzix.app",
-        "buildNumber": "2001",
-        "buildSignature": "99DA983CF878CEC016616175464A91A94775E20A489F07F76FCDEA1A0F2B6B45"
-      }
-    },
-    {
-      "key": "追番99",
-      "name": "👑追番｜影视",
-      "type": 3,
-      "api": "csp_App99",
-      "ext": {
-        "host": "https://api.hboqy.cn.hboqy.cn/api",
-        "LoginPath": "/app/log",
-        "appkey": "a0a18659a9977a47e53442cd084b536c",
-        "versionName": "6.1.7",
-        "name": "追番达人",
-        "package": "com.android.packageinstaller",
-        "buildNumber": "2002",
-        "buildSignature": "A40DA80A59D170CAA950CF15C18C454D47A39B26989D8B640ECD745BA71BF5DC"
-      }
-    },
-    {
       "key": "剧圈99",
-      "name": "👑剧圈｜影视",
+      "name": "👑剧圈丨APP",
       "type": 3,
       "api": "csp_App99",
       "ext": {
@@ -608,7 +560,7 @@
     },
     {
       "key": "双星99",
-      "name": "👑双星｜影视",
+      "name": "👑双星丨APP",
       "type": 3,
       "api": "csp_App99",
       "ext": {
@@ -623,59 +575,148 @@
       }
     },
     {
+      "key": "久久",
+      "name": "👑久久｜APP",
+      "type": 3,
+      "api": "csp_AppYsV2",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "http://99cms.jj99.icu:8199/api.php/app/"
+    },
+    {
+      "key": "飞飞",
+      "name": "👑飞飞丨APP",
+      "type": 3,
+      "api": "csp_AppYsV2",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://qpcj.69mini.com/api.php/app/"
+    },
+    {
+      "key": "蓝鹰",
+      "name": "👑蓝鹰｜APP",
+      "type": 3,
+      "api": "csp_AppQi",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": {
+        "site": "https://xinlanyinghb.oss-cn-wuhan-lr.aliyuncs.com/xly.txt",
+        "dataKey": "ca94b06ca359d80e",
+        "dataIv": "ca94b06ca359d80e",
+        "init": "initV120",
+        "ua": "okhttp/3.10.0"
+      }
+    },
+    {
+      "key": "咕噜",
+      "name": "👑咕噜丨APP",
+      "type": 3,
+      "api": "csp_App99",
+      "ext": {
+        "host": "http://103.45.132.22:19987/app/bn",
+        "LoginPath": "/app/log",
+        "appkey": "d1f0c269eab74d93821fffc9befdbbba",
+        "versionName": "1.9.5",
+        "name": "咕噜咕噜",
+        "package": "com.bd.tool.gulu",
+        "buildNumber": "2001",
+        "buildSignature": "B07C8F6DBEBD3ABEE6A4A4DE2BFBBF29A0AC3F984D532A39448EC3BF5DD36311"
+      }
+    },
+    {
+      "key": "峥嵘",
+      "name": "👑峥嵘｜APP",
+      "type": 3,
+      "api": "csp_AppFox",
+      "ext": "https://api2026.hboqy.cn"
+    },
+    {
+      "key": "毒舌影视",
+      "name": "🥇毒舌｜影视",
+      "type": 3,
+      "api": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/js/毒舌影视.js"
+    },
+    {
+      "key": "荐片123",
+      "name": "🥇荐片｜影视",
+      "type": 3,
+      "api": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/js/荐片.js"
+    },
+    {
       "key": "永1乐",
       "name": "🥇永乐｜影视",
       "type": 3,
-      "api": "./lib/永乐视频.js"
+      "api": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/js/永乐视频.js"
     },
     {
       "key": "鬼片",
       "name": "🥇鬼片｜影视",
       "type": 3,
-      "api": "./lib/鬼片之家.js"
-    },
-    {
-      "key": "月光影视",
-      "name": "🥇月光┃影视",
-      "type": 3,
-      "api": "./lib/月光影视.js"
+      "api": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/js/鬼片之家.js"
     },
     {
       "key": "独播库",
       "name": "🥇播库┃影视",
       "type": 3,
-      "api": "./lib/VmOlRys8_vip.js"
-    },
-    {
-      "key": "布布",
-      "name": "🥇布布｜影视",
-      "type": 3,
-      "api": "./lib/布布.js"
+      "api": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/js/VmOlRys8_vip.js"
     },
     {
       "key": "戒",
       "name": "🥇视界｜影视",
       "type": 3,
-      "api": "./lib/界.py",
+      "api": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/py/界.py",
       "changeable": 1
     },
     {
       "key": "华数",
       "name": "🥇华数｜影视",
       "type": 3,
-      "api": "./lib/华数.py",
+      "api": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/py/华数.py",
       "changeable": 1
+    },
+    {
+      "key": "看剧影视",
+      "name": "🥇看剧丨影视",
+      "type": 3,
+      "api": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/py/AppToV5.py",
+      "ext": "http://43.248.117.123:4680"
+    },
+    {
+      "key": "猎手",
+      "name": "🥇猎手丨影视",
+      "type": 3,
+      "api": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/py/猎手.py"
+    },
+    {
+      "key": "央视",
+      "name": "🥇央视丨影视",
+      "type": 3,
+      "api": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/py/央视.py"
+    },
+    {
+      "key": "爱听音乐",
+      "name": "🥇爱听丨音乐",
+      "type": 3,
+      "api": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/py/爱听音乐.py"
+    },
+    {
+      "key": "哔哩直播",
+      "name": "🥇哔哩丨直播",
+      "type": 3,
+      "api": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/py/哔哩直播.py"
     },
     {
       "key": "py_文才",
       "name": "🥇文才｜影视",
       "type": 3,
-      "api": "./lib/文才影视.py",
+      "api": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/py/文才影视.py",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
       "ext": {
-        "site": "https://www.hkybqufgh.com,https://www.sizhengxt.com,https://0996zp.com,https://9zhoukj.com/,https://www.sizhengxt.com,https://www.tjrongze.com,https://www.jiabaide.cn,https://cqzuoer.com"
+        "site": "https://www.hkybqufgh.com,https://www.sizhengxt.com,https://www.sizhengxt.com,https://www.tjrongze.com,https://www.jiabaide.cn,https://cqzuoer.com"
       }
     },
     {
@@ -686,7 +727,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./lib/电影港.json"
+      "ext": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/XYQHiker/电影港.json"
     },
     {
       "key": "电影天堂",
@@ -765,7 +806,7 @@
       "type": 3,
       "jar": "https://ncstatic-file.clewm.net/rsrc/2026/0307/11/98d51d4d95c5cf1b67e74af45cc4445f.jpg;md5;4d860d06ec233dbcb891b76055f099d5",
       "api": "csp_XBPQ",
-      "ext": "./lib/养生堂.json",
+      "ext": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/XBPQ/养生堂.json",
       "style": {
         "type": "rect",
         "ratio": 1.597
@@ -854,7 +895,7 @@
       "name": "🧿啊哈｜DJ",
       "type": 3,
       "api": "csp_XBPQ",
-      "ext": "./lib/啊哈DJ.json",
+      "ext": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/XBPQ/啊哈DJ.json",
       "jar": "https://ncstatic-file.clewm.net/rsrc/2026/0307/11/98d51d4d95c5cf1b67e74af45cc4445f.jpg;md5;4d860d06ec233dbcb891b76055f099d5"
     },
     {
@@ -949,8 +990,8 @@
       "key": "采集之王",
       "name": "🐢采集｜合集",
       "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./lib/采集静态.json"
+      "api": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/js/drpy2.min.js",
+      "ext": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/js/采集之王.js?type=url&params=https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/json/采集静态.json"
     },
     {
       "key": "魔都资源",
@@ -1003,7 +1044,7 @@
     {
       "name": "失败手动换",
       "type": "1",
-      "url": "https://by1.nxog.eu.org/jx.php?ou=261&mz=0&url=",
+      "url": "https://by1.nxog.eu.org/jx.php?ou=2bd&mz=0&url=",
       "ext": {
         "header": {
           "user-agent": "Mozilla/5.0(Linux;Android13;V2049ABuild/TP1A.220624.014;wv)AppleWebKit/537.36(KHTML,likeGecko)Version/4.0Chrome/116.0.0.0MobileSafari/537.36"
@@ -1013,17 +1054,17 @@
     {
       "name": "-关注-",
       "type": 1,
-      "url": "https://by1.nxog.eu.org/jx.php?ou=261&mz=1&url="
+      "url": "https://by1.nxog.eu.org/jx.php?ou=2bd&mz=1&url="
     },
     {
       "name": "-装歌API-",
       "type": 1,
-      "url": "https://by1.nxog.eu.org/jx.php?ou=261&mz=2&url="
+      "url": "https://by1.nxog.eu.org/jx.php?ou=2bd&mz=2&url="
     },
     {
       "name": "-公众号-",
       "type": 1,
-      "url": "https://by1.nxog.eu.org/jx.php?ou=261&mz=3&url="
+      "url": "https://by1.nxog.eu.org/jx.php?ou=2bd&mz=3&url="
     },
     {
       "name": "装歌APP",
@@ -1091,7 +1132,7 @@
     {
       "name": "tv",
       "type": 0,
-      "url": "https://tv.nxog.top/m/tv/?ou=261",
+      "url": "https://tv.nxog.top/m/tv/?ou=2bd",
       "epg": "http://cdn.1678520.xyz/epg/?ch={name}&date={date}",
       "logo": "https://gitee.com/mytv-android/myTVlogo/raw/main/img/{name}.png",
       "playerType": 2,
